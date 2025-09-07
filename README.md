@@ -16,7 +16,7 @@ pip install mujoco
 ```
 Make sure your system supports OpenGL and GLFW, which are required for the visualizer. See the [Mujoco installing instrction](https://github.com/google-deepmind/mujoco/blob/main/README.md) if you run into any issues with installing Mujoco.
 
-## Usage
+# Usage
 To render in a window, refers to the example provided.
 ```
 import mujoco
@@ -34,5 +34,5 @@ If this visualizer has previously executed successfully, a file named `mjc_visua
 This visualizer includes a built-in screenshot and video recording system. Press "P" to capture a screenshot, and press "Q" to start/stop recording a video.
 If this visualizer has previously executed successfully, two folders named `screenshots` and `videos` would be created in the same path as the renderer, which will store all screenshots and videos.
 
-# GPU data output (under implementation)
+## GPU data output (under implementation)
 Press "G" for enabling/disabling GPU data output. However, as this function currently only supports PC with Nvidia GPU and is still under implementation, it is not recommended to enable that feature.
